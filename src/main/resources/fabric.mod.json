@@ -6,7 +6,9 @@
   "description": "Makes rotten flesh compostable.",
   "authors": ["Lagaffe"],
   "contact": {
-    "homepage" : "https://modrinth.com/mod/compostable-flesh"
+    "homepage" : "https://modrinth.com/mod/compostable-flesh",
+    "sources" : "https://github.com/Lagaffe91/CompostableFlesh",
+    "issues" : "https://github.com/Lagaffe91/CompostableFlesh/issues"
   },
   "license": "MIT",
   "icon": "assets/usefullflesh/icon.png",
@@ -26,7 +28,7 @@
   }
 ],
   "depends": {
-    "fabricloader": ">=0.16.7",
+    "fabricloader": ">=0.16.9",
     "fabric": "*",
     "minecraft": "${minecraft_version}"
   }
