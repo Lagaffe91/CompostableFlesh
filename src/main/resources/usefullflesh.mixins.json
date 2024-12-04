@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "lagaffe.mc.usefullflesh.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "FarmerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

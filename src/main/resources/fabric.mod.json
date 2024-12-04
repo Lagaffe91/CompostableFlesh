@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "compostableflesh",
+  "version": "${version}",
+  "name": "Compostable Flesh",
+  "description": "Makes rotten flesh compostable.",
+  "authors": ["Lagaffe"],
+  "contact": {
+    "homepage" : "https://modrinth.com/mod/compostable-flesh"
+  },
+  "license": "MIT",
+  "icon": "assets/usefullflesh/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "lagaffe.mc.usefullflesh.client.UsefullfleshClient"
+    ],
+    "main": [
+      "lagaffe.mc.usefullflesh.Usefullflesh"
+    ]
+  },"mixins": [
+  "usefullflesh.mixins.json",
+  {
+    "config": "usefullflesh.client.mixins.json",
+    "environment": "client"
+  }
+],
+  "depends": {
+    "fabricloader": ">=0.16.7",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
